@@ -7,6 +7,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Coaching from "./Pages/Coaching";
 import Contact from "./Pages/Contact";
+import Imprint from "./Pages/Imprint";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/coaching" element={<Coaching />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/imprint" element={<Imprint />} />
       </Routes>
       <Footer />
     </div>
