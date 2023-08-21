@@ -1,0 +1,656 @@
+@import url('https://fonts.cdnfonts.com/css?family=daxlinepro:wght@400;500;600;700');
+@import url('https://fonts.cdnfonts.com/css?family=boowie:wght@400');
+@import url('https://fonts.cdnfonts.com/css/autography');
+
+
+:root {
+    --daxline: 'DaxlinePro', sans-serif;
+    --boo: 'BOOWIE', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1040px;
+}
+
+
+header,
+footer {
+    background-color: #2B3127;
+}
+
+/* Header Start */
+
+.navbar {
+    --bs-navbar-color: #A89B8A;
+    padding: 0;
+}
+
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--boo);
+    padding: 0;
+}
+
+.navbar-nav {
+    gap: 52px;
+}
+
+.nav-link:hover {
+    color: #A89B8A;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.nav-link:active {
+    color: #DCD2C4;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Header End */
+
+
+/* Footer Start */
+.foo_inner {
+    padding: 18px 0 25px 0;
+}
+
+.foo_link {
+    gap: 55px;
+    margin-bottom: 20px;
+}
+
+.foo_inner a {
+    color: #A89B8A;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+
+.foo_inner a:hover {
+    text-decoration: underline;
+}
+
+.foo_inner p {
+    color: #A89B8A;
+    text-align: center;
+    font-family: var(--daxline);
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Footer End */
+
+
+/* Index Page Start */
+
+/* Hero Start */
+.hero_outter {
+    height: 670px;
+}
+
+.hero {
+    background-image: linear-gradient(90deg, #2B3127 50%, rgba(255, 255, 255, 0) 0);
+    height: 340px;
+}
+
+.hero_inner_text {
+    padding-top: 35px;
+
+}
+
+.hero_inner_text h1 {
+    color: #2B3127;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.hero span,
+.hero article span,
+.about_dark span,
+.coaching_hero span {
+    color: #272721;
+    text-align: center;
+    display: block;
+    font-family: 'Autography', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.hero_inner_text p {
+    color: #000;
+    text-align: center;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.reading_btn {
+    display: block;
+    margin: auto;
+    color: #2B3127;
+    text-align: center;
+    font-family: var(--daxline);
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    padding: 12px 34px !important;
+    border: 1px solid #2B3127;
+    background: #FFF;
+    white-space: nowrap;
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.reading_btn:hover {
+    background: rgba(43, 49, 39, 0.05);
+}
+
+.reading_btn>.active {
+    background-color: #2B3127;
+    color: #FFF;
+}
+
+.hero article p {
+    color: #2B3127;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.8px;
+}
+
+/* Hero End */
+
+/* About me Start */
+
+.mb_140 {
+    margin-bottom: 120px;
+}
+
+.about_me {
+    background-color: #2B3127;
+    padding: 63px;
+}
+
+.about_me p,
+.coaching p,
+.contact p {
+    color: #A89B8A;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.coaching p,
+.contact p {
+    color: #2B3127;
+}
+
+.about_me .reading_btn,
+.client_review a {
+    color: #A89B8A;
+    border: 1px solid #A89B8A;
+    background: rgba(255, 255, 255, 0.00);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.about_me .reading_btn:hover,
+.client_review a:hover {
+    background: #A89B8A;
+    color: #2B3127;
+    text-decoration: none;
+}
+
+.about_me a>.active,
+.client_review a:hover>.active {
+    background: #A89B8A;
+    color: #2B3127;
+    border: 1px solid #2B3127;
+    ;
+}
+
+.coaching .reading_btn {
+    color: #2B3127;
+}
+
+.coaching .reading_btn:hover {
+    text-decoration: none;
+}
+
+.about_me a,
+.coaching a,
+.client_review h3,
+.contact a {
+    color: #A89B8A;
+    font-family: var(--boo);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    display: block;
+}
+
+
+.about_me a:hover,
+.coaching a:hover {
+    text-decoration: underline;
+}
+
+.coaching a,
+.contact a {
+    color: #2B3127;
+}
+
+
+/* About me End */
+
+/* Walk and Talk Start */
+
+.walk_talk p {
+    color: #272721;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.walk_talk img {
+    width: 292px;
+    height: 292px;
+}
+
+.talk {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out;
+    ;
+}
+
+.talk:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay p {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+
+/* Walk and Talk End */
+
+
+/* Client Review Start */
+
+.client_review {
+    background-image: url("../images/client_review.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 44px 37px;
+    height: 620px;
+}
+
+.client_review p {
+    color: #A89B8A;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.client_review span {
+    display: block;
+    color: #A89B8A;
+    text-align: center;
+    font-family: DaxlinePro;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.mb_review_350 {
+    margin-bottom: 350px;
+}
+
+/* Client Review End */
+
+
+/* contact Start */
+
+
+.contact button {
+    background-color: #2B3127;
+    color: #FFF;
+    transition: .3s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #1E211C;
+}
+
+.contact button>.active {
+    background-color: #40493A;
+}
+
+/* contact End */
+
+/* Index Page Start */
+
+
+
+/* About Page Start */
+.about_outter {
+    background-image: linear-gradient(90deg, #2B3127 51%, rgba(255, 255, 255, 0) 0);
+    height: 100px;
+}
+
+.about_hero,
+.coaching_hero {
+    margin-top: -100px;
+}
+
+.about_hero h1,
+.coaching_hero h1 {
+    color: #A89B8A;
+    font-family: var(--boo);
+    font-size: 40px;
+    font-weight: 400;
+    padding: 27px 0;
+}
+
+
+.about_hero p,
+.coaching_hero p,
+.coaching_bottom p {
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.about_inner {
+    padding-top: 41.5px;
+    padding-bottom: 41px;
+}
+
+.about_dark {
+    background-color: #2B3127;
+    padding-top: 72px;
+    padding-bottom: 57px;
+}
+
+.coaching_hero article {
+    background-color: #2B3127;
+    padding-top: 72px;
+    padding-bottom: 57px;
+}
+
+.about_dark p,
+.coaching_hero article p {
+    color: #A89B8A;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.about_dark span,
+.coaching_hero span {
+    color: #A89B8A;
+}
+
+.about_bottom p {
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.next_btn button {
+    padding: 12px 15px;
+    color: #2B3127;
+    text-align: center;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #2B3127;
+    background: #FFF;
+}
+
+.next_btn button:hover {
+    background: rgba(43, 49, 39, 0.05);
+}
+
+.next_btn button .active {
+    background: #2B3127;
+    color: #FFF;
+}
+
+.after_btn {
+    color: #FFF !important;
+    background-color: #2B3127 !important;
+}
+
+.after_btn:hover {
+    background: #1E211C !important;
+}
+
+.after_btn .active {
+    background: #40493A;
+}
+
+/* About Page End */
+
+/* Coaching Page Start */
+
+
+
+.coachingSub {
+    font-family: var(--daxline) !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+}
+
+
+/* Coaching Page End */
+
+/* Contact Start */
+
+.darkBox {
+    height: 140px;
+    background-image: linear-gradient(90deg, #2B3127 51%, rgba(255, 255, 255, 0) 0);
+}
+
+.contactAll img {
+    margin-top: -140px;
+}
+
+.contactAll h2,
+.imprint h2 {
+    color: #2B3127;
+    text-align: center;
+    font-family: var(--boo);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.contactAll label {
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+.contactAll input {
+    border: .5px solid #2B3127;
+    background: rgba(168, 155, 138, 0.05);
+    padding: 5px;
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+.contactAll :focus-visible {
+    outline: none;
+}
+
+.contactAll textarea {
+    border: .5px solid #2B3127;
+    background: rgba(168, 155, 138, 0.05);
+    padding: 5px;
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+.confirmForm p {
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+.confirmForm input.checkBox {
+    width: 20px !important;
+    height: 20px;
+}
+.confirmForm input {
+    accent-color: rgba(168, 155, 138, 0.05);;
+}
+
+
+/* Contact End */
+
+/* imprint Start */
+
+.darkBoxImprint {
+    height: 10px;
+    background-image: linear-gradient(90deg, #2B3127 51%, rgba(255, 255, 255, 0) 0);
+}
+
+.imprint h6 {
+    display: block;
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.imprint p,
+.imprint a {
+    color: #000;
+    font-family: var(--daxline);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.imprint a:hover {
+    text-decoration: underline;
+}
+
+/* imprint End */
