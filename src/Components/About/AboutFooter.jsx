@@ -1,4 +1,6 @@
 import React from "react";
+import before from "../../assets/before.png";
+import after from "../../assets/after.png";
 
 const AboutFooter = () => {
   return (
@@ -36,20 +38,12 @@ const AboutFooter = () => {
 
           <div className="next_btn d-flex justify-content-between align-items-center">
             <button>
-              <img
-                className="img-fluid me-3"
-                src="./assets/images/before.png"
-                alt="Left Arrow"
-              />
+              <img className="img-fluid me-3" src={before} alt="Left Arrow" />
               Zurück
             </button>
             <button className="after_btn">
               zum Coaching
-              <img
-                className="img-fluid ms-3"
-                src="./assets/images/after.png"
-                alt="Right Arrow"
-              />
+              <img className="img-fluid ms-3" src={after} alt="Right Arrow" />
             </button>
           </div>
         </div>
