@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 import Coaching from "./Pages/Coaching";
 import Contact from "./Pages/Contact";
 import Imprint from "./Pages/Imprint";
+import ProtectData from "./Pages/ProtectData";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/coaching" element={<Coaching />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/imprint" element={<Imprint />} />
+        <Route path="/protect-data" element={<ProtectData />} />
       </Routes>
       <Footer />
     </div>
