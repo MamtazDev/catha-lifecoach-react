@@ -74,7 +74,8 @@ footer {
   text-decoration-thickness: 2px;
 }
 
-.nav-link:active {
+.nav-link:active,
+.nav-link:focus {
   color: #DCD2C4;
   text-decoration: underline;
   text-underline-offset: 4px;
