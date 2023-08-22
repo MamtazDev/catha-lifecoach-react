@@ -1,5 +1,6 @@
 import React from "react";
 import before from "../assets/before.png";
+import { Link } from "react-router-dom";
 
 const Imprint = () => {
   return (
@@ -27,16 +28,19 @@ const Imprint = () => {
               gleichwohl verpflichtet, darauf hinzuweisen, dass die Europäische
               Kommission eine Plattform zur Online-Streitbeilegung (OS)
               bereitstellt, die unter{" "}
-              <a href="https://ec.europa.eu/consumers/odr/">
+              <Link target="_blank" to="https://ec.europa.eu/consumers/odr/">
                 https://ec.europa.eu/consumers/odr/
-              </a>{" "}
+              </Link>{" "}
               erreichbar ist.
             </p>
             <h6>Quelle:</h6>
             <p className="mb-3">
-              <a href="https://www.e-recht24.de/impressum-generator.html">
+              <Link
+                target="_blank"
+                to="https://www.e-recht24.de/impressum-generator.html"
+              >
                 https://www.e-recht24.de/impressum-generator.html
-              </a>
+              </Link>
             </p>
             <h6>Credits</h6>
             <p>Design: Martin Heidenreich Design</p>

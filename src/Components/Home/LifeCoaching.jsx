@@ -1,5 +1,6 @@
 import React from "react";
 import lifeCoach from "../../assets/life_coach.png";
+import { Link } from "react-router-dom";
 const LifeCoaching = () => {
   return (
     <section>
@@ -7,9 +8,9 @@ const LifeCoaching = () => {
         <div className="container">
           <div className="coaching_inner d-flex justify-content-between align-items-center gap-3 gap-lg-5">
             <div>
-              <a className="text-end" href="coaching.html">
+              <Link className="text-end" to="/coaching">
                 Life Coaching
-              </a>
+              </Link>
             </div>
 
             <div>
@@ -20,9 +21,9 @@ const LifeCoaching = () => {
                 Strategiefindung, die dich zu deiner ganz eigenen und besten
                 Vision deines Lebens führen wird.
               </p>
-              <a href="coaching.html" className="reading_btn">
+              <Link to="/coaching" className="reading_btn">
                 Weiterlesen
-              </a>
+              </Link>
             </div>
 
             <div>

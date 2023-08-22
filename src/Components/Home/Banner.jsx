@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../../assets/banner.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -34,9 +35,9 @@ const Banner = () => {
                       vielleicht das erste Mal wahrhaftig mit uns selbst
                       auseinandersetzen.
                     </p>
-                    <a href="about_me.html" className="reading_btn">
+                    <Link to="/about" className="reading_btn">
                       Weiterlesen
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

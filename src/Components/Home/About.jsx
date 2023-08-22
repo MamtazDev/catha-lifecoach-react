@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../../assets/about_me.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -16,12 +17,12 @@ const About = () => {
                 kennenzulernen und dich in deinem selbstbestimmten Prozess hin
                 zu deiner schönsten Vision deines eigenen Lebens zu begleiten.
               </p>
-              <a className="reading_btn" href="about_me.html">
+              <Link className="reading_btn" to="/about">
                 Weiterlesen
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="about_me.html">über mich</a>
+              <Link to="/about">über mich</Link>
             </div>
           </div>
         </div>

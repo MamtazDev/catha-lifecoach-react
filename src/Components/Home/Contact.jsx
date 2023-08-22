@@ -1,5 +1,6 @@
 import React from "react";
 import contact from "../../assets/contact.png";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -17,12 +18,12 @@ const Contact = () => {
                 Ich freue mich darauf, dich auf deiner Reise begleiten zu
                 dürfen..
               </p>
-              <a className="reading_btn" href="contact.html">
+              <Link className="reading_btn" to="/contact">
                 Kontakt
-              </a>
+              </Link>
             </div>
             <div>
-              <a href="contact.html">Kontakt</a>
+              <Link to="/contact">Kontakt</Link>
             </div>
           </div>
         </div>
