@@ -5,7 +5,6 @@ import linkedIn from "../assets/linkedIn.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-
   return (
     <footer>
       <div className="container">
@@ -20,10 +19,16 @@ const Footer = () => {
             <Link to="/imprint">Impressum</Link>
             <Link to="protect-data">Datenschutz</Link>
             <div className="d-flex justify-content-between align-items-center gap-2">
-              <Link to="#">
+              <Link
+                target="_blank"
+                to="https://www.instagram.com/rettieck_suefke_coaching/"
+              >
                 <img src={instagram} alt="Instagram" />
               </Link>
-              <Link to="#">
+              <Link
+                target="_blank"
+                to="https://de.linkedin.com/in/catharina-rettieck-s%C3%BCfke-8173b8255"
+              >
                 <img src={linkedIn} alt="LinkedIn" />
               </Link>
             </div>
