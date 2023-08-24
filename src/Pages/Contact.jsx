@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import contactbanner from "../assets/contact-banner.png";
 import before from "../assets/before.png";
 import after from "../assets/after.png";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when component mounts
+  }, []);
   return (
     <div>
       <section className="contactAll">

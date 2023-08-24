@@ -42,7 +42,11 @@ a {
   max-width: 1040px;
 }
 
-
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 header,
 footer {
   background-color: #2B3127;
@@ -503,7 +507,7 @@ footer {
 }
 
 .next_btn button {
-  padding: 12px 15px;
+  padding: 6px 15px;
   color: #2B3127;
   text-align: center;
   font-family: var(--daxline);

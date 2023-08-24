@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import before from "../assets/before.png";
 import { Link } from "react-router-dom";
 
 const Imprint = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when component mounts
+  }, []);
   return (
     <div>
       <section className="imprint">

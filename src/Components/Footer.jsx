@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../assets/footer_logo.png";
 import instagram from "../assets/ig.png";
 import linkedIn from "../assets/linkedIn.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
   return (
     <footer>
       <div className="container">
