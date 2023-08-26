@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contactHome">
       <div className="contact mb_140">
         <div className="container">
           <div className="contact_inner d-flex justify-content-between align-items-center gap-5">

@@ -11,7 +11,7 @@ const AboutUs = () => {
             <div className="col-12 col-md-6 col-lg-6 pe-md-0">
               <div className="d-flex flex-column justify-content-between h-100">
                 <h1>Über mich</h1>
-                <div className="about_inner pe-2">
+                <div className="about_inner" style={{ paddingRight:"25px" }}>
                   <p className="mb-3 mb-lg-5">
                     Ich war nie der Typ für “den roten Faden”. Ich stand immer
                     schon für Neugier, Veränderung, Lebenslust und war immer

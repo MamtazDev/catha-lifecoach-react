@@ -42,12 +42,7 @@ a {
   max-width: 1040px;
 }
 
-/* header{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 99999999;
-} */
+
 header,
 footer {
   background-color: #2B3127;
@@ -104,6 +99,12 @@ footer {
   box-shadow: none;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99999999;
+}
+
 /* Header End */
 
 
@@ -148,7 +149,7 @@ footer {
 /* Hero Start */
 .hero_outter {
   height: 670px;
-  /* padding-top: 120px; */
+  /* margin-top: 110px; */
 }
 
 .hero {
@@ -198,11 +199,11 @@ footer {
   margin: auto;
   color: #2B3127;
   text-align: center;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px !important;
   font-weight: 500 !important;
   line-height: 20px !important;
-  padding: 12px 34px !important;
+  padding: 8px 34px !important;
   border: 1px solid #2B3127;
   background: #FFF;
   white-space: nowrap;
@@ -305,10 +306,10 @@ footer {
 }
 
 
-.about_me a:hover,
+/* .about_me a:hover,
 .coaching a:hover {
   text-decoration: underline;
-}
+} */
 
 .coaching a,
 .contact a {
@@ -435,6 +436,8 @@ footer {
   background-color: #40493A;
 }
 
+
+
 /* contact End */
 
 /* Index Page Start */
@@ -473,13 +476,13 @@ footer {
 }
 
 .about_inner {
-  padding-top: 41.5px;
+  /* padding-top: 41.5px; */
   padding-bottom: 41px;
 }
 
 .about_dark {
   background-color: #2B3127;
-  padding-top: 72px;
+  padding-top: 57px;
   padding-bottom: 57px;
 }
 
@@ -503,6 +506,7 @@ footer {
 .about_dark span,
 .coaching_hero span {
   color: #A89B8A;
+  margin-bottom: 0;
 }
 
 .about_bottom p {
@@ -564,6 +568,11 @@ footer {
 /* Coaching Page End */
 
 /* Contact Start */
+
+.privacyPolicy:hover {
+  text-decoration: underline;
+  color: #2B3127;
+}
 
 .darkBox {
   height: 140px;
@@ -655,7 +664,7 @@ footer {
 }
 
 .imprint p,
-.imprint a {
+.imprint a, .imprint ul li{
   color: #000;
   font-family: var(--daxline);
   font-size: 12px;
@@ -668,6 +677,22 @@ footer {
 }
 
 /* imprint End */
+
+/* Privacy Policy Start */
+.imprint h5, .quelle {
+  color: var(--catha-rock, #272721);
+  font-family: var(--boo) !important;
+  font-size: 20px !important;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.imprint ul li{
+  list-style: disc !important;
+  margin-left: 18px;
+}
+
+/* Privacy Policy End */
 
 
 
@@ -707,6 +732,18 @@ footer {
 
   /* About Page Start */
 
+  .about_hero p,
+  .coaching_hero p,
+  .coaching_bottom p,
+  .about_me p,
+  .coaching p,
+  .contact p,
+  .hero_inner_text p,
+  .imprint p,
+  .imprint a {
+    font-weight: 400;
+  }
+
   .about_outter {
     height: 70px;
   }
@@ -723,7 +760,7 @@ footer {
   }
 
   .about_inner {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 10px;
   }
 
@@ -756,8 +793,12 @@ footer {
     object-fit: cover;
   }
 
+  .coachingDes {
+    margin-top: 20px;
+  }
+
   .coachingInner {
-    padding-top: 20px;
+    margin-top: 35px;
   }
 
   .coaching_hero article {
@@ -908,6 +949,12 @@ footer {
 
   .coaching_hero_outter {
     height: 800px;
+  }
+
+
+  .coachingNext {
+    flex-direction: column;
+    gap: 12px;
   }
 
 }

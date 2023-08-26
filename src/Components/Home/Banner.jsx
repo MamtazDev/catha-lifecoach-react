@@ -35,9 +35,9 @@ const Banner = () => {
                       vielleicht das erste Mal wahrhaftig mit uns selbst
                       auseinandersetzen.
                     </p>
-                    <Link to="/about" className="reading_btn">
+                    {/* <Link to="/about" className="reading_btn">
                       Weiterlesen
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

@@ -19,18 +19,13 @@ const Imprint = () => {
             <p>Rhiemsweg 12 </p>
             <p className="mb-3"> 22111 Hamburg </p>
             <h6>Kontakt</h6>
-            <p>Telefon: 017682010686</p>
+            <p>Telefon:  0176 8201 0686</p>
             <p className="mb-3">E-Mail: kontakt@rettieck-suefke-coaching.de</p>
             <h6>Redaktionell verantwortlich</h6>
             <p className="mb-3">Catharina Rettieck-Süfke </p>
             <h6>Verbraucherstreitbeilegung/Universalschlichtungsstelle</h6>
             <p className="mb-3">
-              Ich bin nicht bereit oder verpflichtet, an
-              Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
-              teilzunehmen. Gemäß der EU-Verordnung Nr. 524/2013 bin ich
-              gleichwohl verpflichtet, darauf hinzuweisen, dass die Europäische
-              Kommission eine Plattform zur Online-Streitbeilegung (OS)
-              bereitstellt, die unter{" "}
+            Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Gemäß der EU-Verordnung Nr. 524/2013 bin ich gleichwohl verpflichtet, darauf hinzuweisen, dass die Europäische Kommission eine Plattform zur Online-Streitbeilegung (OS) bereitstellt, die unter {" "}
               <Link target="_blank" to="https://ec.europa.eu/consumers/odr/">
                 https://ec.europa.eu/consumers/odr/
               </Link>{" "}
@@ -63,10 +58,14 @@ const Imprint = () => {
             style={{ maxWidth: "580px", margin: "auto" }}
             className="next_btn d-flex justify-content-between align-items-center"
           >
-            <button>
-              <img className="img-fluid me-3" src={before} alt="Left Arrow" />
-              Zurück
-            </button>
+
+            <Link to="/">
+              {" "}
+              <button>
+                <img className="img-fluid me-3" src={before} alt="Left Arrow" />
+                Zurück
+              </button>
+              </Link>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const About = () => {
               </Link>
             </div>
             <div>
-              <Link to="/about">über mich</Link>
+              <Link to="">über mich</Link>
             </div>
           </div>
         </div>
