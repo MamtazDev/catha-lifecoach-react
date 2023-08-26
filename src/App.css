@@ -152,6 +152,8 @@ header {
   /* margin-top: 110px; */
 }
 
+
+
 .hero {
   background-image: linear-gradient(90deg, #2B3127 50%, rgba(255, 255, 255, 0) 0);
   height: 340px;
@@ -306,7 +308,6 @@ header {
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0.8px;
-  cursor: pointer;
   display: block;
 }
 
@@ -820,6 +821,11 @@ header {
 
 @media only screen and (max-width:600px) {
 
+  .contact_inner, .coaching_inner, .about_me_inner{
+    align-items: center;
+    flex-direction: column;
+  }
+
   .navbar-brand img {
     width: 300px;
   }
@@ -844,10 +850,7 @@ header {
     height: 975px;
   }
 
-  .about_me_inner {
-    flex-direction: column;
-  }
-
+ 
   .hero article p {
     font-size: 25px;
     line-height: 36px;
@@ -857,17 +860,10 @@ header {
     margin-bottom: 50px;
   }
 
-  .coaching_inner {
-    flex-direction: column;
-  }
-
   .mb_review_350 {
     margin-bottom: 200px;
   }
 
-  .contact_inner {
-    flex-direction: column;
-  }
 
   .foo_link {
     gap: 36px;
