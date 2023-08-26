@@ -233,6 +233,11 @@ header {
 /* Hero End */
 
 /* About me Start */
+.about_me_inner img, .coaching_inner img {
+  max-width: 224px;
+  object-fit: cover;
+}
+
 
 .mb_140 {
   margin-bottom: 120px;
@@ -488,7 +493,7 @@ header {
 
 .coaching_hero article {
   background-color: #2B3127;
-  padding-top: 72px;
+  padding-top: 57px;
   padding-bottom: 57px;
 }
 

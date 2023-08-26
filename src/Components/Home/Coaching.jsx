@@ -1,7 +1,7 @@
 import React from "react";
-import walktalk from "../../assets/walk_talk.png";
-import coaching from "../../assets/coaching.png";
-import onlineCoaching from "../../assets/online_coaching.png";
+import walktalk from "../../assets/walk_talk.jpg";
+import coaching from "../../assets/coaching.jpg";
+import onlineCoaching from "../../assets/online_coaching.jpg";
 
 const Coaching = () => {
   const datas = [

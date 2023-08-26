@@ -12,7 +12,7 @@ const Contact = () => {
               <img className="img-fluid" src={contact} alt="Contact" />
             </div>
             <div>
-              <p className="mb-5">
+              <p className="mb-5 text-start">
                 Kontaktiere mich gern für ein kostenloses Vorgespräch.
                 <br className="d-none d-lg-block" />
                 Ich freue mich darauf, dich auf deiner Reise begleiten zu

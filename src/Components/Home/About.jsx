@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../assets/about_me.png";
+import about from "../../assets/about_me.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
               <img src={about} alt="About Me" />
             </div>
             <div>
-              <p className="mb-5">
+              <p className="mb-5 text-start">
                 Hallo, ich bin Catharina Rettieck-Süfke. Ich freue mich dich
                 kennenzulernen und dich in deinem selbstbestimmten Prozess hin
                 zu deiner schönsten Vision deines eigenen Lebens zu begleiten.

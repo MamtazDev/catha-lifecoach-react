@@ -86,13 +86,10 @@ const Contact = () => {
                 Zurück
               </button>
             </Link>
-            <Link to="/imprint">
               {" "}
-              <button className="after_btn">
+              <button className="after_btn" type="submit">
                 Abschicken &gt
-                <img className="img-fluid ms-3" src={after} alt="Right Arrow" />
               </button>
-            </Link>
           </div>
         </div>
       </div>
