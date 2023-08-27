@@ -17,7 +17,7 @@ const CoachingFooter = () => {
             Coaching und deine Investition in dich selbst. 
           </p>
 
-          <div className="next_btn d-flex justify-content-between align-items-center">
+          <div className="next_btn coachingNext d-flex justify-content-between align-items-center">
             <Link to="/about">
               {" "}
               <button>
@@ -27,7 +27,7 @@ const CoachingFooter = () => {
             </Link>
             <Link to="/contact">
               <button className="after_btn">
-                zum KOntakt
+              Jetzt Kontaktanfrage stellen &gt
                 <img className="img-fluid ms-3" src={after} alt="Right Arrow" />
               </button>
             </Link>

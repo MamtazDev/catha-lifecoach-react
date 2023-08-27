@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import logo from "../assets/footer_logo.png";
-import instagram from "../assets/ig.png";
-import linkedIn from "../assets/linkedIn.png";
+import logo from "../assets/footer_logo.svg";
+import instagram from "../assets/ig.svg";
+import linkedIn from "../assets/linkedIn.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -23,13 +23,13 @@ const Footer = () => {
                 target="_blank"
                 to="https://www.instagram.com/rettieck_suefke_coaching/"
               >
-                <img src={instagram} alt="Instagram" />
+                <img style={{ maxWidth: "15px" }} src={instagram} alt="Instagram" />
               </Link>
               <Link
                 target="_blank"
                 to="https://de.linkedin.com/in/catharina-rettieck-s%C3%BCfke-8173b8255"
               >
-                <img src={linkedIn} alt="LinkedIn" />
+                <img style={{ maxWidth: "15px" }} src={linkedIn} alt="LinkedIn" />
               </Link>
             </div>
           </div>

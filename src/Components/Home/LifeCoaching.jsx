@@ -1,20 +1,20 @@
 import React from "react";
-import lifeCoach from "../../assets/life_coach.png";
+import lifeCoach from "../../assets/life_coach.jpg";
 import { Link } from "react-router-dom";
 const LifeCoaching = () => {
   return (
     <section>
       <div className="coaching mb_140">
         <div className="container">
-          <div className="coaching_inner d-flex justify-content-between align-items-center gap-3 gap-lg-5">
+          <div className="coaching_inner d-flex justify-content-between gap-3 gap-lg-5">
             <div>
-              <Link className="text-end" to="/coaching">
+              <Link className="text-end pt-lg-4" to="">
                 Life Coaching
               </Link>
             </div>
 
             <div>
-              <p className="mb-3 mb-lg-5">
+              <p className="mb-3 pt-lg-4 mb-lg-5 text-start">
                 Mein Coaching ist eine vertrauensvolle und prozessbegleitende
                 Arbeit zwischen Erwachsenen auf Augenhöhe. Mit dir als Klient*in
                 und mir als deinem Coach. Ich unterstütze dich in der

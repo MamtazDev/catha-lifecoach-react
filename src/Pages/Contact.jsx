@@ -37,7 +37,7 @@ const Contact = () => {
                 <input className="w-100" type="email" />
               </div>
               <div className="mb-3">
-                <label>E-Telefon*</label>
+                <label>Telefon*</label>
                 <input className="w-100" type="tel" />
               </div>
               <div className="mb-3">
@@ -56,7 +56,11 @@ const Contact = () => {
                     name="weeklyMail"
                     value="yes"
                   />
-                  <label>Receive weekly mails</label>
+                  <label>Ich habe die 
+                    <Link to="/protect-data" className="mx-1 text-dark privacyPolicy" >
+                      Datenschutzbestimmung
+                    </Link>
+                     gelesen und stimme hiermit zu.</label>
                 </div>
                 <p>
                   Mit * gekennzeichnete Felder sind
@@ -82,13 +86,10 @@ const Contact = () => {
                 Zurück
               </button>
             </Link>
-            <Link to="/imprint">
               {" "}
-              <button className="after_btn">
-                zum Impressum
-                <img className="img-fluid ms-3" src={after} alt="Right Arrow" />
+              <button className="after_btn" type="submit">
+                Abschicken &gt
               </button>
-            </Link>
           </div>
         </div>
       </div>
