@@ -329,17 +329,25 @@ footer {
   letter-spacing: 2px;
 }
 
-.walk_talk img {
+
+.imageContainer {
   width: 292px;
   height: 292px;
-}
-
-.talk {
   position: relative;
+  margin: auto !important;
 }
 
-.overlay {
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+.imageContainer::before {
   position: absolute;
+  content: attr(data-content);
   top: 0;
   left: 0;
   width: 100%;
@@ -349,19 +357,22 @@ footer {
   color: white;
   visibility: hidden;
   opacity: 0;
+  display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 20px;
   overflow: hidden;
   transition: opacity 0.5s ease-in-out;
-  ;
+  font-size: 12px;
 }
 
-.talk:hover .overlay {
+
+
+.talk:hover .imageContainer::before {
   visibility: visible;
   opacity: 1;
 }
+
 
 .overlay p {
   color: #FFF;
@@ -743,10 +754,6 @@ footer {
   }
 
   .about_hero img {
-    object-fit: cover;
-  }
-
-  .talk img {
     object-fit: cover;
   }
 

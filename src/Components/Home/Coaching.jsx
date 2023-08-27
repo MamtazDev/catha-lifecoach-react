@@ -30,16 +30,18 @@ const Coaching = () => {
         <div className="container">
           <div className="row gy-5">
             {datas.map((data, index) => (
-              <div key={index} className="col-12 col-md-6 col-lg-4">
+              <div key={index} className="col-12 col-md-6 col-lg-4 ">
                 <p className="mb-3">{data.title}</p>
-                <div className="talk">
-                  <img
-                    className="img-fluid w-100"
-                    src={data.pic}
-                    alt="Walk & Talk"
-                  />
-                  <div className="overlay">
-                    <p>{data.overlay}</p>
+                <div className="talk ">
+                  <div
+                    className="imageContainer d-flex justify-content-center align-items-center"
+                    data-content={data.overlay}
+                  >
+                    <img
+                      className="img-fluid "
+                      src={data.pic}
+                      alt="Walk & Talk"
+                    />
                   </div>
                 </div>
               </div>
