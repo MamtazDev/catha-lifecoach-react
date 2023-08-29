@@ -859,10 +859,10 @@ header {
     margin-top: 50px;
   }
 
-  .about_me a,
-  .coaching a,
+  .about_me h3,
+  .coaching h3,
   .client_review h3,
-  .contact a {
+  .contact h3 {
     font-size: 30px;
     line-height: 35px;
   }
