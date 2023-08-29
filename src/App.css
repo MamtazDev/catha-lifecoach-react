@@ -235,7 +235,7 @@ header {
 /* Hero End */
 
 /* About me Start */
-.about_me_inner img, .coaching_inner img {
+.about_me_inner img, .coaching_inner img, .contact_inner img  {
   max-width: 224px;
   object-fit: cover;
 }
