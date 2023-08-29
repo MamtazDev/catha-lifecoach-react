@@ -88,7 +88,7 @@ const Contact = () => {
             </Link>
               {" "}
               <button className="after_btn" type="submit">
-                Abschicken &gt
+                Abschicken
               </button>
           </div>
         </div>

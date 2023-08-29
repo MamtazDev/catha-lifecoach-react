@@ -1,11 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css?family=daxlinepro:wght@400;500;600;700');
-@import url('https://fonts.cdnfonts.com/css?family=boowie:wght@400');
+/* @import url('https://fonts.cdnfonts.com/css?family=boowie:wght@400'); */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:wght@300;400;600&display=swap');
 @import url('https://fonts.cdnfonts.com/css/autography');
 
 
 :root {
-  --daxline: 'DaxlinePro', sans-serif;
-  --boo: 'BOOWIE', sans-serif;
+  /* --daxline: 'DaxlinePro', sans-serif;
+  --boo: 'BOOWIE', sans-serif; */
+  --daxline: 'Raleway', sans-serif;
+  ;
+  --boo: 'Italiana', serif;
 
 }
 
@@ -59,7 +63,7 @@ footer {
 .nav-link {
   font-size: 16px;
   font-weight: 400;
-  font-family: var(--boo);
+  font-family: var(--daxline) !important;
   padding: 0;
 }
 
@@ -121,7 +125,7 @@ header {
 .foo_inner a {
   color: #A89B8A;
   text-align: center;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 1.2px;
@@ -135,7 +139,7 @@ header {
 .foo_inner p {
   color: #A89B8A;
   text-align: center;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
@@ -167,11 +171,12 @@ header {
 .hero_inner_text h1 {
   color: #2B3127;
   text-align: center;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .hero span,
@@ -190,7 +195,7 @@ header {
 .hero_inner_text p {
   color: #000;
   text-align: center;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -225,17 +230,20 @@ header {
 .hero article p {
   color: #2B3127;
   text-align: center;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 40px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0.8px;
+  text-transform: uppercase;
 }
 
 /* Hero End */
 
 /* About me Start */
-.about_me_inner img, .coaching_inner img, .contact_inner img  {
+.about_me_inner img,
+.coaching_inner img,
+.contact_inner img {
   max-width: 224px;
   object-fit: cover;
 }
@@ -254,7 +262,7 @@ header {
 .coaching p,
 .contact p {
   color: #A89B8A;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -298,17 +306,18 @@ header {
   text-decoration: none;
 }
 
-.about_me a,
-.coaching a,
+.about_me h3,
+.coaching h3,
 .client_review h3,
-.contact a {
+.contact h3 {
   color: #A89B8A;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 40px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0.8px;
   display: block;
+  text-transform: uppercase;
 }
 
 
@@ -318,8 +327,10 @@ header {
 } */
 
 .coaching a,
+.coaching_inner h3,
+.contact h3,
 .contact a {
-  color: #2B3127;
+  color: #2B3127 !important;
 }
 
 
@@ -330,7 +341,7 @@ header {
 .walk_talk p {
   color: #272721;
   text-align: center;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -384,7 +395,7 @@ header {
 .overlay p {
   color: #FFF;
   text-align: center;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -413,9 +424,10 @@ header {
 .client_review p {
   color: #A89B8A;
   text-align: center;
-  font-family: var(--boo);
-  font-size: 16px;
-  font-weight: 400;
+  font-family: var(--daxline) !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
   margin-bottom: 10px;
 }
 
@@ -423,14 +435,10 @@ header {
   display: block;
   color: #A89B8A;
   text-align: center;
-  font-family: DaxlinePro;
-  font-size: 12px;
+  font-family: var(--boo) !important;
+  font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-}
-
-.mb_review_350 {
-  margin-bottom: 350px;
 }
 
 /* Client Review End */
@@ -475,21 +483,27 @@ header {
 .about_hero h1,
 .coaching_hero h1 {
   color: #A89B8A;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 40px;
   font-weight: 400;
   padding: 27px 0;
+  text-transform: uppercase;
 }
 
 
 .about_hero p,
 .coaching_hero p,
-.coaching_bottom p {
+.coaching_bottom p , .coaching_bottom ul li{
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
+}
+
+
+.coaching_bottom ul li{
+  list-style: disc;
 }
 
 .about_inner {
@@ -513,7 +527,7 @@ header {
 .coaching_hero article p {
   color: #A89B8A;
   text-align: center;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
@@ -528,7 +542,7 @@ header {
 
 .about_bottom p {
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -538,7 +552,7 @@ header {
   padding: 6px 15px;
   color: #2B3127;
   text-align: center;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -604,14 +618,15 @@ header {
 .imprint h2 {
   color: #2B3127;
   text-align: center;
-  font-family: var(--boo);
+  font-family: var(--boo) !important;
   font-size: 40px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .contactAll label {
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 350;
   line-height: 20px;
@@ -622,7 +637,7 @@ header {
   background: rgba(168, 155, 138, 0.05);
   padding: 5px;
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 350;
   line-height: 20px;
@@ -637,7 +652,7 @@ header {
   background: rgba(168, 155, 138, 0.05);
   padding: 5px;
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 350;
   line-height: 20px;
@@ -645,7 +660,7 @@ header {
 
 .confirmForm p {
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 350;
   line-height: 20px;
@@ -674,16 +689,17 @@ header {
 .imprint h6 {
   display: block;
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 700;
   line-height: 20px;
 }
 
 .imprint p,
-.imprint a, .imprint ul li{
+.imprint a,
+.imprint ul li {
   color: #000;
-  font-family: var(--daxline);
+  font-family: var(--daxline) !important;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -696,22 +712,21 @@ header {
 /* imprint End */
 
 /* Privacy Policy Start */
-.imprint h5, .quelle {
+.imprint h5,
+.quelle {
   color: var(--catha-rock, #272721);
-  font-family: var(--boo) !important;
+  font-family: var(--daxline) !important;
   font-size: 20px !important;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.imprint ul li{
+.imprint ul li {
   list-style: disc !important;
   margin-left: 18px;
 }
 
 /* Privacy Policy End */
-
-
 
 
 
@@ -738,9 +753,6 @@ header {
     height: 940px;
   }
 
-  .mb_review_350 {
-    margin-bottom: 270px;
-  }
 
   .client_review {
     height: 500px;
@@ -828,7 +840,9 @@ header {
 
 @media only screen and (max-width:600px) {
 
-  .contact_inner, .coaching_inner, .about_me_inner{
+  .contact_inner,
+  .coaching_inner,
+  .about_me_inner {
     align-items: center;
     flex-direction: column;
   }
@@ -857,7 +871,7 @@ header {
     height: 975px;
   }
 
- 
+
   .hero article p {
     font-size: 25px;
     line-height: 36px;
@@ -867,9 +881,7 @@ header {
     margin-bottom: 50px;
   }
 
-  .mb_review_350 {
-    margin-bottom: 200px;
-  }
+  
 
 
   .foo_link {

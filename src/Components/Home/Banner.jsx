@@ -44,9 +44,10 @@ const Banner = () => {
             </div>
             <article>
               <p>
-                Veränderung ist die Konstanteund
+                {/* Veränderung ist die Konstanteund
                 <br className="d-none d-lg-block" /> selbst die Veränderung
-                verändert sich.
+                verändert sich. */}
+                Veränderung ist die Konstante<br className="d-none d-lg-block" /> und selbst die Veränderung verändert sich.
               </p>
               <span>Simone Menne</span>
             </article>

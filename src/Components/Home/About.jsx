@@ -13,16 +13,14 @@ const About = () => {
             </div>
             <div>
               <p className="mb-5 pt-lg-4 text-start">
-                Hallo, ich bin Catharina Rettieck-Süfke. Ich freue mich dich
-                kennenzulernen und dich in deinem selbstbestimmten Prozess hin
-                zu deiner schönsten Vision deines eigenen Lebens zu begleiten.
+                Hallo, ich bin Catharina Rettieck-Süfke. Ich freue mich, dich kennenzulernen und dich in deinem selbstbestimmten Prozess hin zu der schönsten Vision deines eigenen Lebens zu begleiten.
               </p>
               <Link className="reading_btn" to="/about">
                 Weiterlesen
               </Link>
             </div>
             <div>
-              <Link to="" className="pt-lg-4" >über mich</Link>
+              <h3 to="" className="pt-lg-4" >über mich</h3>
             </div>
           </div>
         </div>

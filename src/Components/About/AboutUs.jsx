@@ -11,7 +11,7 @@ const AboutUs = () => {
             <div className="col-12 col-md-6 col-lg-6 pe-md-0">
               <div className="d-flex flex-column justify-content-between h-100">
                 <h1>Über mich</h1>
-                <div className="about_inner" style={{ paddingRight:"25px" }}>
+                <div className="about_inner" style={{ paddingRight: "25px" }}>
                   <p className="mb-3 mb-lg-5">
                     Ich war nie der Typ für “den roten Faden”. Ich stand immer
                     schon für Neugier, Veränderung, Lebenslust und war immer
@@ -23,13 +23,7 @@ const AboutUs = () => {
                   </p>
 
                   <p className="mb-3 mb-xl-5">
-                    Denn genau dieser kurvenreiche Weg macht mich aus. Nach über
-                    einem Jahrzehnt öffentlichen Dienstes, einem Burnout später
-                    und mit Beginn meines neuen Jahrzehnts, war es endlich an
-                    der Zeit, in das Leben einzutauchen und zu starten, dass ICH
-                    wollte und bestimme. Kreativ, empathisch, voller Charisma,
-                    mit einer gehörigen Portion Humor und einer lauten Lache!
-                    Denn Lachen ist für mich das Schönste!
+                    Denn genau dieser kurvenreiche Weg macht mich aus. Nach über einem Jahrzehnt öffentlichen Dienstes, einem Burnout später und mit Beginn meines neuen Jahrzehnts, war es endlich an der Zeit, in das Leben einzutauchen und zu starten, dass ICH wollte. Kreativ, empathisch, voller Charisma, mit einer gehörigen Portion Humor und einer lauten Lache! Denn Lachen ist für mich das Schönste!
                   </p>
 
                   <p>

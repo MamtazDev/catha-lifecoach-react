@@ -13,17 +13,15 @@ const Contact = () => {
             </div>
             <div>
               <p className="mb-5 text-start pt-lg-4">
-                Kontaktiere mich gern für ein kostenloses Vorgespräch.
-                <br className="d-none d-lg-block" />
-                Ich freue mich darauf, dich auf deiner Reise begleiten zu
-                dürfen..
+                Kontaktiere mich gern für ein kostenloses Vorgespräch.<br className="d-none d-lg-block" />
+                Ich freue mich darauf, dich auf deiner Reise begleiten zu dürfen.
               </p>
               <Link className="reading_btn" to="/contact">
                 Kontakt
               </Link>
             </div>
             <div>
-              <Link to="" className="pt-4">Kontakt</Link>
+              <h3 to="" className="pt-4">Kontakt</h3>
             </div>
           </div>
         </div>
