@@ -54,6 +54,10 @@ footer {
 
 /* Header Start */
 
+.navbar .navbar-toggler .icon-bar {
+  background-color: #fff !important;
+}
+
 .navbar {
   --bs-navbar-color: #A89B8A;
   padding: 0;

@@ -8,9 +8,6 @@ const LifeCoaching = () => {
         <div className="container">
           <div className="coaching_inner d-flex justify-content-between gap-3 gap-lg-5">
             <div>
-              {/* <Link className="text-end pt-lg-4" to="">
-                Life Coaching
-              </Link> */}
               <h3 className="text-end pt-lg-4" to="">
                 Life Coaching
               </h3>

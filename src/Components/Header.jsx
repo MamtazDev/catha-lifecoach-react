@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/header_logo.png";
+import menu from "../assets/menu.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,7 +20,8 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fa fa-align-justify"></i>
+            {/* <i className="fa fa-align-justify icon-bar"></i> */}
+            <span><img src={menu} alt="menu" /></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
