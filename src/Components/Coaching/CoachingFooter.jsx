@@ -17,34 +17,40 @@ const CoachingFooter = () => {
               kreieren möchten. Gerne berate ich dich über dein individuelles
               Coaching und deine Investition in dich selbst.
             </p>
-            <p style={{ fontWeight: "800" }}>
-              Welche Themen eignen sich für ein Coaching?
-            </p>
-            <div className="ps-3">
-              <ul>
-                <li>Klare Entscheidungen treffen</li>
-                <li>Herausforderungen umdenken und anders begegnen</li>
-                <li>Selbstbewusstsein / Selbstwert / Selbstliebe stärken</li>
-                <li>Entwicklung und Gestaltung der eigenen Lebensvision</li>
-                <li>Innere und äußere Konflikte lösen</li>
-                <li>Findung der eigenen beruflichen / persönlichen / privaten Rolle</li>
-                <li>Private und berufliche Veränderung und (Neu-) Orientierung </li>
-              </ul>
-            </div>
-            <p>und viele mehr…</p>
-            <p style={{ fontWeight: "800" }}>
-              Was bringst du für ein erfolgreiches Coaching mit?
-            </p>
-            <div className="ps-3">
-              <ul>
-                <li>wahrer Wunsch zur Veränderung und Entwicklung</li>
-                <li>Selbstwirksamkeit</li>
-                <li>Offenheit für Perspektivenwechsel </li>
-                <li>Selbstreflektion</li>
-              </ul>
+            <div className="row gy-3">
+              <div className="col-12 col-md-6">
+                <p style={{ fontWeight: "800" }}>
+                  Welche Themen eignen sich für ein Coaching?
+                </p>
+                <div className="ps-3">
+                  <ul>
+                    <li>Klare Entscheidungen treffen</li>
+                    <li>Herausforderungen umdenken und anders begegnen</li>
+                    <li>Selbstbewusstsein / Selbstwert / Selbstliebe stärken</li>
+                    <li>Entwicklung und Gestaltung der eigenen Lebensvision</li>
+                    <li>Innere und äußere Konflikte lösen</li>
+                    <li>Findung der eigenen beruflichen / persönlichen / privaten Rolle</li>
+                    <li>Private und berufliche Veränderung und (Neu-) Orientierung </li>
+                  </ul>
+                </div>
+                <p>und viele mehr…</p>
+              </div>
+              <div className="col-12 col-md-6">
+                <p style={{ fontWeight: "800" }}>
+                  Was bringst du für ein erfolgreiches Coaching mit?
+                </p>
+                <div className="ps-3">
+                  <ul>
+                    <li>wahrer Wunsch zur Veränderung und Entwicklung</li>
+                    <li>Selbstwirksamkeit</li>
+                    <li>Offenheit für Perspektivenwechsel </li>
+                    <li>Selbstreflektion</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          
+
 
           <div className="next_btn coachingNext d-flex justify-content-between align-items-center">
             <Link to="/about">

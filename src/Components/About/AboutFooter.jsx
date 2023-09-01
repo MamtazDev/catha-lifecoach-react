@@ -23,10 +23,10 @@ const AboutFooter = () => {
               <p className="mb-3">
                 Meine Ausbildung habe ich an der renommierten Dr. Bock Coaching Akademie in Berlin absolviert, die als Eliteschmiede im Coaching und als das “Harvard des Coachings” bekannt ist und nach den Richtlinien der International Coach Federation (ICF) anerkannt ist.
               </p>
-              {/* <p className="mb-3">_ Sachbearbeiterin in Kommunalverwaltung</p>
+              <p className="mb-3">_ Sachbearbeiterin in Kommunalverwaltung</p>
               <p className="mb-3">
                 _ Ausbildung zur Verwaltungsfachangestellten
-              </p> */}
+              </p>
             </div>
           </div>
 

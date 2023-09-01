@@ -54,6 +54,22 @@ footer {
 
 /* Header Start */
 
+header p {
+  color: #A89B8A;
+  font-family: var(--boo) !important;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #A89B8A;
+  font-family: var(--daxline);
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 .navbar .navbar-toggler .icon-bar {
   background-color: #fff !important;
 }
@@ -67,8 +83,9 @@ footer {
 .nav-link {
   font-size: 16px;
   font-weight: 400;
-  font-family: var(--daxline) !important;
+  font-family: var(--boo) !important;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .navbar-nav {
@@ -349,6 +366,7 @@ header {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 
@@ -497,7 +515,8 @@ header {
 
 .about_hero p,
 .coaching_hero p,
-.coaching_bottom p , .coaching_bottom ul li{
+.coaching_bottom p,
+.coaching_bottom ul li {
   color: #000;
   font-family: var(--daxline) !important;
   font-size: 12px;
@@ -506,7 +525,7 @@ header {
 }
 
 
-.coaching_bottom ul li{
+.coaching_bottom ul li {
   list-style: disc;
 }
 
@@ -749,14 +768,22 @@ header {
 @media only screen and (max-width:992px) {}
 
 @media only screen and (max-width:768px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .navbar-brand img {
+    width: 37px;
+    height: 58px;
+  }
+
   .navbar-nav {
     gap: 20px;
   }
 
   .hero_outter {
-    height: 940px;
+    height: 1080px;
   }
-
 
   .client_review {
     height: 500px;
@@ -771,19 +798,23 @@ header {
   .about_me p,
   .coaching p,
   .contact p,
-  .hero_inner_text p,
   .imprint p,
   .imprint a {
-    font-weight: 400;
+    /* font-weight: 400;
+    font-size: 10px; */
+  }
+
+  .hero_inner_text p {
+    font-size: 10px;
   }
 
   .about_outter {
-    height: 70px;
+    height: 130px;
   }
 
   .about_hero,
   .coaching_hero {
-    margin-top: -70px;
+    margin-top: -130px;
   }
 
   .about_hero h1,
@@ -844,6 +875,15 @@ header {
 
 @media only screen and (max-width:600px) {
 
+  header p {
+    font-size: 18px;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+
+
   .contact_inner,
   .coaching_inner,
   .about_me_inner {
@@ -851,24 +891,23 @@ header {
     flex-direction: column;
   }
 
-  .navbar-brand img {
+  /* .navbar-brand img {
     width: 300px;
-  }
+  } */
 
   .hero {
     height: 450px;
   }
 
   .hero_inner_text h1 {
-    margin-top: 50px;
+    margin-top: 18px;
   }
 
   .about_me h3,
   .coaching h3,
   .client_review h3,
   .contact h3 {
-    font-size: 30px;
-    line-height: 35px;
+    text-align: center;
   }
 
   .hero_outter {
@@ -877,16 +916,13 @@ header {
 
 
   .hero article p {
-    font-size: 25px;
-    line-height: 36px;
+    font-size: 28px;
+    line-height: 35px;
   }
 
   .mb_140 {
     margin-bottom: 50px;
   }
-
-  
-
 
   .foo_link {
     gap: 36px;
@@ -908,7 +944,7 @@ header {
 
 @media only screen and (max-width:425px) {
   .hero {
-    height: 350px;
+    height: 130px;
   }
 
   .coaching_hero_outter {
@@ -924,9 +960,9 @@ header {
 
 
 @media only screen and (max-width:375px) {
-  .navbar-brand img {
+  /* .navbar-brand img {
     width: 250px;
-  }
+  } */
 
   .hero_outter {
     height: 1010px !important;
@@ -947,8 +983,8 @@ header {
 }
 
 @media only screen and (max-width:320px) {
-  .navbar-brand img {
-    width: 200px;
+  header p {
+    font-size: 14px;
   }
 
   .nav-link {

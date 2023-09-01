@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/header_logo.png";
+import logo from "../assets/header_logo.svg";
 import menu from "../assets/menu.png";
 import { Link } from "react-router-dom";
 
@@ -8,9 +8,15 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            <img src={logo} alt="Logo" />
-          </Link>
+          <div className="d-flex justify-content-between align-items-center gap-2">
+            <Link className="navbar-brand" to="/">
+              <img className="img-fluid" src={logo} alt="Logo" />
+            </Link>
+            <div>
+              <p>Catharina Rettieck-Süfke</p>
+              <span className="d-block">Life Coach</span>
+            </div>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,7 +26,6 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            {/* <i className="fa fa-align-justify icon-bar"></i> */}
             <span><img src={menu} alt="menu" /></span>
           </button>
 
@@ -38,7 +43,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">
-                  KOntakt
+                  Kontakt
                 </Link>
               </li>
             </ul>

@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../../assets/banner.jpg";
+import mbanner from "../../assets/mBanner.png";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
@@ -11,12 +12,15 @@ const Banner = () => {
             <div className="mb-5">
               <div className="row">
                 <div className="col-12 col-lg-7">
-                  <img className="img-fluid w-100" src={banner} alt="Image" />
+                  <div className="d-flex justify-content-center">
+                    <img className="img-fluid w-100 d-none d-md-block" src={banner} alt="Image" />
+                    <img className="img-fluid  d-block d-md-none" src={mbanner} alt="Image" />
+                  </div>
                 </div>
                 <div className="col-12 col-lg-5">
                   <div className="hero_inner_text">
                     <h1 className=" mb-3">
-                       Was darf passieren, damit Sie wahrhaftig glücklich auf
+                      Was darf passieren, damit Sie wahrhaftig glücklich auf
                       Ihr Leben zurückschauen?
                     </h1>
                     <span className="mb-5">Dr. Petra Back</span>
