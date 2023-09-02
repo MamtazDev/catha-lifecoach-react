@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import contactbanner from "../assets/contact-banner.png";
+import mcontactbanner from "../assets/mcontact-banner.png";
 import before from "../assets/before.png";
-import after from "../assets/after.png";
+// import after from "../assets/after.png";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -13,7 +14,10 @@ const Contact = () => {
       <section className="contactAll">
         <div className="darkBox"></div>
         <div className="container">
-          <img className="mb-5 img-fluid" src={contactbanner} alt="" />
+          <div className="d-flex justify-content-center">
+            <img className="d-none d-md-block mb-5 img-fluid" src={contactbanner} alt="Contact Banner" />
+            <img className="d-block d-md-none  mb-5 img-fluid" src={mcontactbanner} alt="Contact Banner" />
+          </div>
           <div
             style={{ maxWidth: "760px", margin: "auto" }}
             className="contact_form"
@@ -56,11 +60,11 @@ const Contact = () => {
                     name="weeklyMail"
                     value="yes"
                   />
-                  <label>Ich habe die 
+                  <label>Ich habe die
                     <Link to="/protect-data" className="mx-1 text-dark privacyPolicy" >
                       Datenschutzbestimmung
                     </Link>
-                     gelesen und stimme hiermit zu.</label>
+                    gelesen und stimme hiermit zu.</label>
                 </div>
                 <p>
                   Mit * gekennzeichnete Felder sind
@@ -69,15 +73,31 @@ const Contact = () => {
                 </p>
               </div>
             </form>
+            <div
+              style={{ maxWidth: "760px", margin: "auto" }}
+              className="mb-5 next_btn d-flex justify-content-between align-items-center"
+            >
+              <Link to="/coaching">
+                {" "}
+                <button>
+                  <img className="img-fluid me-3" src={before} alt="Left Arrow" style={{ marginTop: "0" }} />
+                  Zurück
+                </button>
+              </Link>
+              {" "}
+              <button className="after_btn" type="submit">
+                Abschicken
+              </button>
+            </div>
           </div>
         </div>
       </section>
 
-      <div className="mb-5">
+      <div className="">
         <div className="container">
-          <div
+          {/* <div
             style={{ maxWidth: "760px", margin: "auto" }}
-            className="next_btn d-flex justify-content-between align-items-center"
+            className="mb-5 next_btn d-flex justify-content-between align-items-center"
           >
             <Link to="/coaching">
               {" "}
@@ -86,11 +106,11 @@ const Contact = () => {
                 Zurück
               </button>
             </Link>
-              {" "}
-              <button className="after_btn" type="submit">
-                Abschicken
-              </button>
-          </div>
+            {" "}
+            <button className="after_btn" type="submit">
+              Abschicken
+            </button>
+          </div> */}
         </div>
       </div>
     </div>

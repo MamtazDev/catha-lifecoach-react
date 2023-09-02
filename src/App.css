@@ -873,7 +873,7 @@ header {
   }
 
   .about_inner, .coachingInner, .coachingDes, .coaching_bottom, .coaching_hero article, .about_dark, 
-  .about_bottom  {
+  .about_bottom, .contact_form  {
     padding-left: 40px;
     padding-right: 40px;
   }
