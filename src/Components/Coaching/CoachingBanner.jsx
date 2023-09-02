@@ -66,7 +66,7 @@ const CoachingBanner = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-6 p-0">
-              <div className="d-none d-md-block">
+              <div className="d-none d-md-block h-100">
                 <img
                   className="img-fluid w-100 h-100"
                   src={banner}
@@ -75,8 +75,8 @@ const CoachingBanner = () => {
               </div>
               <div className="d-block d-md-none">
                 <div className="d-flex flex-column justify-content-between h-100">
-                  <h1>Coaching</h1>
-                  <div className="coachingInner" style={{ paddingRight: "25px" }}>
+                  <h1 className="text-center">Coaching</h1>
+                  <div className="coachingInner">
                     <p className="mb-3">
                       Beschreibe mir dein Leben, wenn es zu 100 % deiner Vision
                       entspricht und noch mehr.
@@ -108,7 +108,7 @@ const CoachingBanner = () => {
                       Mentorin & langjährige Wegbegleiterin
                     </p>
                   </article>
-                  <p className="coachingDes" style={{ paddingRight: "25px" }}>
+                  <p className="coachingDes">
                     Als Life Coach unterstütze ich dich dabei, den Fokus auf deine
                     bisherigen bewussten und unbewussten Erfolge zu setzen und
                     mithilfe deiner ureigenen Fähigkeiten, Ressourcen und

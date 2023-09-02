@@ -757,10 +757,10 @@ header {
 
 
 @media only screen and (max-width:1024px) {
-  .coaching_hero img {
+  /* .coaching_hero img {
     width: 100% !important;
     height: auto;
-  }
+  } */
 
 
 }
@@ -792,6 +792,9 @@ header {
 
   /* About Page Start */
 
+
+ 
+
   .about_hero p,
   .coaching_hero p,
   .coaching_bottom p,
@@ -808,40 +811,35 @@ header {
     font-size: 10px;
   }
 
-  .about_outter {
-    height: 130px;
-  }
-
-  .about_hero,
-  .coaching_hero {
-    margin-top: -130px;
-  }
+ 
 
   .about_hero h1,
   .coaching_hero h1 {
-    padding: 10px 0 10px 0;
-    font-size: 30px;
+    /* padding: 10px 0 10px 0; */
+    /* font-size: 30px; */
+
+    padding: 30px 0 30px 0;
   }
 
   .about_inner {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  .about_dark {
+  /* .about_dark {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
-  }
+  } */
 
-  .about_dark span {
+  /* .about_dark span {
     margin-bottom: 0;
-  }
+  } */
 
-  .about_dark p {
+  /* .about_dark p {
     font-size: 15px;
-  }
+  } */
 
   .about_hero img {
     object-fit: cover;
@@ -857,13 +855,9 @@ header {
     margin-top: 20px;
   }
 
-  .coachingInner {
-    margin-top: 35px;
-  }
-
-  .coaching_hero article {
+  /* .coaching_hero article {
     padding-bottom: 16px;
-  }
+  } */
 
   .confirmForm {
     flex-direction: column;
@@ -874,6 +868,24 @@ header {
 }
 
 @media only screen and (max-width:600px) {
+  .about_hero h1, .coaching_hero h1{
+    padding: 20px 0 0 0;
+  }
+
+  .about_inner, .coachingInner, .coachingDes, .coaching_bottom, .coaching_hero article, .about_dark, 
+  .about_bottom  {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .about_outter {
+    height: 130px;
+  }
+
+  .about_hero,
+  .coaching_hero {
+    margin-top: -130px;
+  }
 
   header p {
     font-size: 18px;
@@ -928,9 +940,6 @@ header {
     gap: 36px;
   }
 
-  /* about page Start */
-
-
   .contactAll h2 {
     font-size: 25px;
     padding-top: 10px;
@@ -951,10 +960,6 @@ header {
     height: 660px;
   }
 
-  .about_hero h1,
-  .coaching_hero h1 {
-    font-size: 25px;
-  }
 
 }
 
@@ -963,6 +968,10 @@ header {
   /* .navbar-brand img {
     width: 250px;
   } */
+
+  .next_btn button {
+    padding: 6px 4px;
+  }
 
   .hero_outter {
     height: 1010px !important;

@@ -58,17 +58,17 @@ const AboutUs = () => {
             </div>
 
             <div className="col-12 col-md-6 col-lg-6 p-0">
-              <div className="d-none d-md-block">
+              <div className="d-none d-md-block h-100">
                 <img
-                  className="img-fluid w-100 d-none d-md-block"
+                  className="img-fluid h-100 w-100 d-none d-md-block"
                   src={about}
                   alt="About Me"
                 />
               </div>
               <div className="d-block d-md-none">
                 <div className="d-flex flex-column justify-content-between h-100">
-                  <h1>Über mich</h1>
-                  <div className="about_inner" style={{ paddingRight: "25px" }}>
+                  <h1 className="text-center">Über mich</h1>
+                  <div className="about_inner">
                     <p className="mb-3 mb-lg-5">
                       Ich war nie der Typ für “den roten Faden”. Ich stand immer
                       schon für Neugier, Veränderung, Lebenslust und war immer
