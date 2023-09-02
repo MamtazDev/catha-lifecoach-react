@@ -17,7 +17,7 @@ const CoachingBanner = () => {
                   alt="Coaching"
                 />
               </div>
-              <div className="d-none d-md-block">
+              <div className="d-none d-md-block h-100">
                 <div className="d-flex flex-column justify-content-between h-100">
                   <h1>Coaching</h1>
                   <div className="coachingInner" style={{ paddingRight: "25px" }}>
