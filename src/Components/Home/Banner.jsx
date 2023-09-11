@@ -14,7 +14,7 @@ const Banner = () => {
                 <div className="col-12 col-lg-7">
                   <div className="d-flex justify-content-center">
                     <img className="img-fluid w-100 d-none d-md-block" src={banner} alt="Image" />
-                    <img className="img-fluid  d-block d-md-none" src={mbanner} alt="Image" />
+                    <img className="d-block d-md-none" src={mbanner} alt="Image" />
                   </div>
                 </div>
                 <div className="col-12 col-lg-5">
