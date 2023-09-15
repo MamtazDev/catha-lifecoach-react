@@ -316,7 +316,6 @@ header {
   background: #A89B8A;
   color: #2B3127;
   border: 1px solid #2B3127;
-  ;
 }
 
 .coaching .reading_btn {
@@ -440,7 +439,7 @@ header {
   background-position: center;
   background-size: cover;
   padding: 44px 37px;
-  height: 620px;
+  /* height: 620px; */
 }
 
 .client_review p {
@@ -786,7 +785,7 @@ header {
   }
 
   .client_review {
-    height: 500px;
+    /* height: 500px; */
   }
 
 
