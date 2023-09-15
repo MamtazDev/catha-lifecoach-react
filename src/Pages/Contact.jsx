@@ -15,8 +15,16 @@ const Contact = () => {
         <div className="darkBox"></div>
         <div className="container">
           <div className="d-flex justify-content-center">
-            <img className="d-none d-md-block mb-5 img-fluid" src={contactbanner} alt="Contact Banner" />
-            <img className="d-block d-md-none  mb-5 img-fluid" src={mcontactbanner} alt="Contact Banner" />
+            <img
+              className="d-none d-md-block mb-5 img-fluid"
+              src={contactbanner}
+              alt="Contact Banner"
+            />
+            <img
+              className="d-block d-md-none  mb-5 img-fluid"
+              src={mcontactbanner}
+              alt="Contact Banner"
+            />
           </div>
           <div
             style={{ maxWidth: "760px", margin: "auto" }}
@@ -25,32 +33,41 @@ const Contact = () => {
             <h2 className="text-center mb-3">
               Kostenloses Vorgespräch vereinbaren
             </h2>
-            <form>
+            <form
+              action="https://formsubmit.co/kontakt@rettieck-suefke-coaching.de"
+              method="POST"
+              target="_blank"
+            >
               <div className="d-flex gap-4 mb-3">
                 <div className="w-100">
                   <label>Vorname*</label>
-                  <input className="w-100" type="text" />
+                  <input className="w-100" type="text" name="Vorname" />
                 </div>
                 <div className="w-100">
                   <label>Nachname*</label>
-                  <input className="w-100" type="text" />
+                  <input className="w-100" type="text" name="Nachname" />
                 </div>
               </div>
               <div className="mb-3">
                 <label>E-Mail*</label>
-                <input className="w-100" type="email" />
+                <input className="w-100" type="email" name="E-Mail" />
               </div>
               <div className="mb-3">
                 <label>Telefon*</label>
-                <input className="w-100" type="tel" />
+                <input className="w-100" type="tel" name="Telefon" />
               </div>
               <div className="mb-3">
                 <label>Thema</label>
-                <input className="w-100" type="text" />
+                <input className="w-100" type="text" name="Thema" />
               </div>
               <div className="mb-3">
                 <label>Nachricht</label>
-                <textarea className="w-100" cols="30" rows="6"></textarea>
+                <textarea
+                  className="w-100"
+                  cols="30"
+                  rows="6"
+                  name="Nachricht"
+                ></textarea>
               </div>
               <div className="confirmForm d-flex justify-content-between align-items-center mb-3">
                 <div className="d-flex align-items-center gap-2">
@@ -60,11 +77,16 @@ const Contact = () => {
                     name="weeklyMail"
                     value="yes"
                   />
-                  <label>Ich habe die
-                    <Link to="/protect-data" className="mx-1 text-dark privacyPolicy" >
+                  <label>
+                    Ich habe die
+                    <Link
+                      to="/protect-data"
+                      className="mx-1 text-dark privacyPolicy"
+                    >
                       Datenschutzbestimmung
                     </Link>
-                    gelesen und stimme hiermit zu.</label>
+                    gelesen und stimme hiermit zu.
+                  </label>
                 </div>
                 <p>
                   Mit * gekennzeichnete Felder sind
@@ -72,23 +94,27 @@ const Contact = () => {
                   Kontakt.
                 </p>
               </div>
-            </form>
-            <div
-              style={{ maxWidth: "760px", margin: "auto" }}
-              className="mb-5 next_btn d-flex justify-content-between align-items-center"
-            >
-              <Link to="/coaching">
-                {" "}
-                <button>
-                  <img className="img-fluid me-3" src={before} alt="Left Arrow" style={{ marginTop: "0" }} />
-                  Zurück
+              <div
+                style={{ maxWidth: "760px", margin: "auto" }}
+                className="mb-5 next_btn d-flex justify-content-between align-items-center"
+              >
+                <Link to="/coaching">
+                  {" "}
+                  <button>
+                    <img
+                      className="img-fluid me-3"
+                      src={before}
+                      alt="Left Arrow"
+                      style={{ marginTop: "0" }}
+                    />
+                    Zurück
+                  </button>
+                </Link>{" "}
+                <button className="after_btn" type="submit">
+                  Abschicken
                 </button>
-              </Link>
-              {" "}
-              <button className="after_btn" type="submit">
-                Abschicken
-              </button>
-            </div>
+              </div>
+            </form>
           </div>
         </div>
       </section>

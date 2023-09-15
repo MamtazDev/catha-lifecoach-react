@@ -34,7 +34,7 @@ const Coaching = () => {
                 <p className="mb-3">{data.title}</p>
                 <div className="talk ">
                   <div
-                    className="imageContainer d-flex justify-content-center align-items-center"
+                    className="imageContainer d-flex justify-content-center align-items-center text-center"
                     data-content={data.overlay}
                   >
                     <img
