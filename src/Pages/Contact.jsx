@@ -34,7 +34,7 @@ const Contact = () => {
               Kostenloses Vorgespräch vereinbaren
             </h2>
             <form
-              action="https://formsubmit.co/kontakt@rettieck-suefke-coaching.de"
+              action="https://formsubmit.co/c.rettiecksuefke@gmail.com"
               method="POST"
               target="_blank"
             >
